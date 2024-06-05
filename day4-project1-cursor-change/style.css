@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    /* color:white; */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+}
+
+#image{
+    height: 30vw;
+    width: 60vw;
+    border:2px solid white;
+    position: relative;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}

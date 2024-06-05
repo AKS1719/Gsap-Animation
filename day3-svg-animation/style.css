@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color:white;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+#box{
+    height: 300px;
+    width:300px;
+    background-color: crimson;
+    margin: 3px;
+}
+
+#string {
+    height: 200px;
+    width :100%;
+    /* background-color:red */
+}
